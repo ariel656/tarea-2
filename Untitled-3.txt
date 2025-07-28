@@ -1,0 +1,14 @@
+import { Link } from "react-router-dom";
+
+export default function Navbar() {
+  return (
+    <nav className="navbar">
+      <h2>Kodigo Music 🎵</h2>
+      <ul>
+        <li><Link to="/">Inicio</Link></li>
+        <li><Link to="/library">Biblioteca</Link></li>
+        <li><Link to="/login">Iniciar Sesión</Link></li>
+      </ul>
+    </nav>
+  );
+}

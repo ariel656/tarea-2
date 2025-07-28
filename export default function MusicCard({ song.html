@@ -1,0 +1,9 @@
+export default function MusicCard({ song }) {
+  return (
+    <div className="card">
+      <img src={song.cover} alt={song.title} className="card-img" />
+      <h3>{song.title}</h3>
+      <p>{song.artist}</p>
+    </div>
+  );
+}
